@@ -388,6 +388,7 @@ namespace CalculadoraForm
             // fraccion
             // 
             this.fraccion.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.fraccion.BackColor = System.Drawing.Color.IndianRed;
             this.fraccion.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
             this.fraccion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fraccion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
@@ -397,7 +398,7 @@ namespace CalculadoraForm
             this.fraccion.Size = new System.Drawing.Size(146, 100);
             this.fraccion.TabIndex = 14;
             this.fraccion.Text = "1/x";
-            this.fraccion.UseVisualStyleBackColor = true;
+            this.fraccion.UseVisualStyleBackColor = false;
             this.fraccion.Click += new System.EventHandler(this.fraccion_Click);
             // 
             // tres
